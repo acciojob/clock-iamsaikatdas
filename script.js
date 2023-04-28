@@ -1,3 +1,7 @@
 //your JS code here. If required.
 let timer = document.getElementById('timer');
-timer.innerText=new Date();
+let newDate =new Date();
+
+let fullDate = `${newDate.getFullYear} / ${newDate.getMonth(),} / ${newDate.getDate().}`
+
+timer.innerText = fullDate
